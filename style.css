@@ -1,0 +1,102 @@
+body {
+	background-color: #ffe0e9;
+}
+
+
+
+.imag-circle {
+	text-align: center;
+	border: 10px solid pink;
+}
+h1 {
+	color: #cdb4db;
+	font-family: Comic Sans MS;
+	text-transform: uppercase;
+	text-align: center;
+	margin: 5px 5px
+}
+
+h2 {
+	margin: 5px 350px
+}
+
+h3 {
+	text-align: center;
+	color: #cdb4db;
+	font-family: Comic Sans MS;
+	font-weight: 100;
+	letter-spacing: 3px
+}
+
+p {
+	text-align: center;
+	color: #2e294e;
+	font-family: Comic Sans MS;
+	font-weight: 100;
+	letter-spacing: 1px
+}
+a{
+	text-align: center;
+	text-decoration: none;
+	font-family: Comic Sans MS;
+	color: #2e294e
+}
+a:hover{
+	color: white;
+	text-decoration: underline;
+}
+
+h4 {
+	font-family: Comic Sans MS;
+	text-transform: uppercase;
+	text-align: center;
+	color: white; 
+}
+.container {
+			width: 850px;
+			margin: 40px auto;
+}
+
+.list-inline{
+	list-style: none;
+	padding-left: 195px;
+}
+.list-inline  li {
+	display: inline;
+	padding: 10px;
+	font-size: 40px;
+}
+.list-inline i {
+	font-size: 40px
+	padding: 10px;
+}
+.list-inline i:hover{
+	font-size: 40px;
+	color: #cdb4da
+}
+
+@media (max-width: 760px) {
+	.container {
+		width: 600px
+
+	}
+}
+
+@media (max-width: 500px) {
+	.container {
+		width: 490px;
+
+	}
+}
+@media (max-width: 760px) {
+	.list-inline {
+		padding-left: 50px;
+		
+	}
+}
+
+@media (max-width: 500px) {
+	.container {
+		width: 490px;
+
+
